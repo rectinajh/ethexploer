@@ -1,0 +1,17 @@
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'karma@0.12.37',
+npm WARN EBADENGINE   required: { node: '>=0.8 <=0.12 || >=1 <=2' },
+npm WARN EBADENGINE   current: { node: 'v16.17.1', npm: '8.15.0' }
+npm WARN EBADENGINE }
+bower ESUDO         Please do not run with sudo
+
+Additional error details:
+Since bower is a user command, there is no need to execute it with superuser permissions.
+If you're having permission errors when using bower without sudo, please spend a few minutes learning more about how your system should work and make any necessary repairs.
+
+http://www.joyent.com/blog/installing-node-and-npm
+https://gist.github.com/isaacs/579814
+
+You can however run a command with sudo using "--allow-root" option
+(node:563996) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
